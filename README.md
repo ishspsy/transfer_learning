@@ -16,5 +16,10 @@ The Cancer Cell Line Encyclopedia (CCLE) dataset consists of the expression leve
 - [Functions_rankestimation_simul.R](https://github.com/ishspsy/transfer_learning/blob/main/Function/Functions_rankestimation_simul.R): The rank estimation process.
 - [Functions_transSCAD.R](https://github.com/ishspsy/transfer_learning/blob/main/Function/Functions_transSCAD.R): Function for SCAD-based estimator.
 
+## Code example
+- [Example_CCLE.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_CCLE.R): The example code for analyzing Cancer Cell Line Encyclopedia (CCLE) dataset.
+- [Example_rankestimationsimul.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_rankestimationsimul.R): The example code for rank estimation procedure.
+- [Example_sourcedetectionsimul.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_sourcedetectionsimul.R): The example code for source detection procedure.
+
 ### Contact
 ishspsy@yonsei.ac.kr
