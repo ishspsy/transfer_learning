@@ -3,7 +3,7 @@ source(paste0(path,"Functions_rankestimation_simul.R")) # load r function
 
 
 
-##### Simulation model in Section 3.4 with n0=120, p=80, q=50, r=8, h=10
+##### Simulation model in Section 3 with n0=120, p=80, q=50, r=8, h=10
 
 ### Simulating target data
 # rep: the number of replicates
@@ -58,7 +58,7 @@ Repfit_TransSCAD_BIC(Ylist=targestset$Ylist, Xlist=targestset$Xlist,
                      numsim=5, maxiter_inital = 300, maxiter_biascorrection = 300, 
                      tol_inital = 1e-04, tol_biascorrection = 1e-04) -> res_transSCAD
 
-##### Results 
+##### Results (Table 4)
 ### PCR 
 ## Trans- SCAD, Trans-NR
 
