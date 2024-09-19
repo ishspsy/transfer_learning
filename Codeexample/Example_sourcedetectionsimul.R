@@ -84,7 +84,7 @@ testrep1to3 <- rep_forsimul(Ylist=targestset$Ylist,
 # Summary of source detection results
 Summary_ft_detection(testrep1to3, numinf=3) #numinf: the number of informative sources
 
-# Summary of estimation results
+# Summary of estimation results (Tables 2 and 3)
 Summary_ft_est(testrep1to3)
 
 ########################### Hetergoeneous design setting ###########################################
