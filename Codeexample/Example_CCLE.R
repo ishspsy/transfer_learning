@@ -303,6 +303,8 @@ for(i in 1:nrep){
   
 }
 
+## Generate Table 6
+
 #### mean prediction error
 apply(do.call('rbind',errorlist),2,mean)
 #### standard deviation of prediction errors
