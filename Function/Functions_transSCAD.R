@@ -1,3 +1,6 @@
+library(corpcor)   # for fast.svd()
+
+
 BIC.TransSCAD <- function(Y, X, auxYlist, auxXlist, lamseq_w, lamseq_delta, eta,
                                 a = 3.7, B = NULL, L = NULL, Delta = NULL, H = NULL, Pi = NULL,
                                 maxiter_inital = 100, maxiter_biascorrection = 300, tol_inital = 1e-04,

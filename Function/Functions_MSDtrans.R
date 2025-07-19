@@ -1,3 +1,9 @@
+library(corpcor)       # for fast.svd()
+library(foreach)       # for foreach loop (used for parallel computation)
+library(doParallel)    # for registering parallel backends
+library(splitTools)    # for create_folds()
+
+
 MSDtrans <- function(Y,X,auxYlist,auxXlist,B,L,eta,
                      lamseq_w, lamseq_delta,
                      maxiter=100,tol=1e-04,nfold=5,nfold_choiceforC=3,

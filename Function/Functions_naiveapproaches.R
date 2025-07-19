@@ -1,3 +1,7 @@
+library(corpcor)       # For fast SVD: fast.svd()
+library(stats)         # For basic functions like apply(), chol(), etc. (usually loaded by default)
+
+
 ################################## ADMM update codes ###############################################
 ######################## Upadting B #########################
 B.update <- function(L,U,eta, covXY, gramridgeInv){

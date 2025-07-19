@@ -1,3 +1,11 @@
+library(parallel)       # for parallel computing (e.g., makeCluster)
+library(doParallel)     # for registering parallel backend for foreach
+library(foreach)        # for parallelized loops (%dopar%)
+library(corpcor)        # for fast.svd()
+library(splitTools)     # for create_folds()
+library(MASS)           # for mvrnorm() in data generation
+
+
 rep_forsimul <- function(Ylist, Xlist, auxYlist_list, auxXlist_list, repstart, repend, Btrue){
   # Ylist: contains the simulated Y
   # Xlist: contains the simulated X

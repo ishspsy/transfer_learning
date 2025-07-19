@@ -1,3 +1,9 @@
+library(corpcor)       # for fast.svd()
+library(MASS)          # for mvrnorm() - multivariate normal simulation
+library(foreach)       # for parallel loops with %dopar%
+library(doParallel)    # to register parallel backend
+
+
 generator_target_normal<- function(rep,n,p,q,r, corx=0.5,cory=0){
   set.seed(100)
   B1 <- rnorm(p*r)
