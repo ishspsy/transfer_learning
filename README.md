@@ -28,15 +28,15 @@ The main dataset CCLEdataset.RDATA contains four key objects:
 - [Functions_transSCAD.R](https://github.com/ishspsy/transfer_learning/blob/main/Function/Functions_transSCAD.R): Function for SCAD-based estimator.
 
 ## Code example
-- [CCLE_prediction_errors (Section 4).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_prediction_errors (Section 4).R): The example code for analyzing Cancer Cell Line Encyclopedia (CCLE) dataset.
-- [CCLE_pathway_analysis (Section S5)](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_pathway_analysis (Section S5).R): The example code for the pathway analsis of Cancer Cell Line Encyclopedia (CCLE) dataset.
+- [CCLE_prediction_errors(Section_4).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_prediction_errors(Section_4).R): The example code for analyzing Cancer Cell Line Encyclopedia (CCLE) dataset.
+- [CCLE_pathway_analysis(Section_S5).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_pathway_analysis(Section_S5).R): The example code for the pathway analsis of Cancer Cell Line Encyclopedia (CCLE) dataset.
 - [Figures_code.R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Figures_code.R): The code for generating plots.
-- [Simulation_rank_estimation (Figure S7-S10).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_rank_estimation (Figure S7-S10).R): The simulation code for rank estimation procedure corresponding to Figures S7-S10.
-- [Simulation_estimation_error (Figure 1).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error (Figure 1).R): The simulation code for estimationr error procedure corresponding to Figure 1.
-- [Simulation_estimation_error (Figure S11).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error (Figure S11).R): The simulation code for estimationr error procedure corresponding to Figure S11.
-- [simulation_source_detection (Figure 2).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/simulation_source_detection (Figure 2).R): The simulation code for source detection procedure corresponding to Figure 2.
-- [Simulation_source_detection (Figures S1-S3).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection (Figures S1-S3).R): The simulation code for source detection procedure corresponding to  Figures S1-S3.
-- [Simulation_source_detection (Figures S4-S6).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection (Figures S4-S6).R): The simulation code for source detection procedure corresponding to  Figures S4-S6.
+- [Simulation_rank_estimation(Figure_S7-S10).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_rank_estimation(Figure_S7-S10).R): The simulation code for rank estimation procedure corresponding to Figures S7-S10.
+- [Simulation_estimation_error(Figure_1).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error(Figure_1).R): The simulation code for estimationr error procedure corresponding to Figure 1.
+- [Simulation_estimation_error(Figure_S11).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error(Figure_S11).R): The simulation code for estimationr error procedure corresponding to Figure S11.
+- [simulation_source_detection(Figure_2).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/simulation_source_detection(Figure_2).R): The simulation code for source detection procedure corresponding to Figure 2.
+- [Simulation_source_detection(Figures_S1-S3).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection(Figures_S1-S3).R): The simulation code for source detection procedure corresponding to  Figures S1-S3.
+- [Simulation_source_detection(Figures_S4-S6).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection(Figures_S4-S6).R): The simulation code for source detection procedure corresponding to  Figures S4-S6.
 
 
 ### Contact
