@@ -2,12 +2,23 @@
 
 ## Directory
 - [Function](https://github.com/ishspsy/transfer_learning/tree/main/Function): includes functions that implement transfer learning algorithms and generate synthetic data used in Section 3.
-- [Data](https://github.com/ishspsy/transfer_learning/tree/main/Data): includes CCLE dataset.
-- [Codeexample](https://github.com/ishspsy/transfer_learning/tree/main/Codeexample): includes R codes demonstrating the use of R functions in [Function](https://github.com/ishspsy/transfer_learning/tree/main/Function) directory.
+- [Data](https://github.com/ishspsy/transfer_learning/tree/main/Data): includes CCLE dataset with data dictionary files.
+- [Code_example](https://github.com/ishspsy/transfer_learning/tree/main/Code_example): includes R codes demonstrating the use of R functions in [Function](https://github.com/ishspsy/transfer_learning/tree/main/Function) directory.
 
 
 ## Data
 The Cancer Cell Line Encyclopedia (CCLE) dataset consists of the expression levels of 19,221 genes and drug response data for 24 compounds across a range of human cancer cell lines, where the drug response of each cell line is measured as the area under the dose-response curve. Cancer cell line datasets, such as CCLE, have been widely used to construct predictive models of drug response. We aim to predict drug response in non-small cell lung cancer (NSCLC) cell lines with mutations in the Kirsten rat sarcoma viral oncogene homolog (KRAS) gene. We focus on a subset of the CCLE data. Specifically, we consider 8 drugs for which drug response is available for all cell lines. These 8 drugs are AZD0530, Crizotinib, Dovitinib, Lapatinib, Nutlin-3, PD0325901, TAE684, and Topotecan. In addition, we select the top 100 genes with the highest variance across KRAS-mutant NSCLC cell lines. Finally, we have 28 KRAS-mutant NSCLC cell lines on 100 predictors and 8 responses.
+
+The main dataset CCLEdataset.RDATA contains four key objects:
+- Xtarget: A 28 × 100 matrix of gene expression data for KRAS-mutant NSCLC cell lines.
+- Ytarget: A 28 × 8 matrix of drug response AUC values for 8 anti-cancer compounds.
+- auXlist: A list of source-domain gene expression datasets (NSCLC Wild-type , Others Mutant, Others Wild-Type), each a matrix of shape n_k × 100, where n_1=47, n_2=68, n_3=326.
+- auYlist: A list of corresponding drug response matrices for each source domain (NSCLC Wild-type , Others Mutant, Others Wild-Type), with shape n_k × 8,  where n_1=47, n_2=68, n_3=326.
+- All gene and drug identifiers are consistent across target and auxiliary domains.
+- For list of genes and their descriptions, see CCLEdataset$Xtarget_dictionary.txt
+- For list of drugs and their descriptions, see CCLEdataset$Ytarget_dictionary.txt
+- CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test splits based on the original CCLEdataset. In each split, the 28 KRAS-mutant NSCLC cell lines are randomly partitioned into 20 training samples and 8 test samples. This resampling procedure was repeated 100 times to allow for stable evaluation of prediction error. The resulting object stores the corresponding training and test indices for each repetition.
+
 
 ## Main function
 - [Functions_FSDtrans.R](https://github.com/ishspsy/transfer_learning/blob/main/Function/Functions_FSDtrans.R): Function for FSD-Trans-NR, which is based on the joint source selection.
@@ -17,9 +28,16 @@ The Cancer Cell Line Encyclopedia (CCLE) dataset consists of the expression leve
 - [Functions_transSCAD.R](https://github.com/ishspsy/transfer_learning/blob/main/Function/Functions_transSCAD.R): Function for SCAD-based estimator.
 
 ## Code example
-- [Example_CCLE.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_CCLE.R): The example code for analyzing Cancer Cell Line Encyclopedia (CCLE) dataset.
-- [Example_rankestimationsimul.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_rankestimationsimul.R): The example code for rank estimation procedure.
-- [Example_sourcedetectionsimul.R](https://github.com/ishspsy/transfer_learning/blob/main/Codeexample/Example_sourcedetectionsimul.R): The example code for source detection procedure.
+- [CCLE_prediction_errors (Section 4).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_prediction_errors (Section 4).R): The example code for analyzing Cancer Cell Line Encyclopedia (CCLE) dataset.
+- [CCLE_pathway_analysis (Section S5)](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/CCLE_pathway_analysis (Section S5).R): The example code for the pathway analsis of Cancer Cell Line Encyclopedia (CCLE) dataset.
+- [Figures_code.R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Figures_code.R): The code for generating plots.
+- [Simulation_rank_estimation (Figure S7-S10).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_rank_estimation (Figure S7-S10).R): The simulation code for rank estimation procedure corresponding to Figures S7-S10.
+- [Simulation_estimation_error (Figure 1).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error (Figure 1).R): The simulation code for estimationr error procedure corresponding to Figure 1.
+- [Simulation_estimation_error (Figure S11).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_estimation_error (Figure S11).R): The simulation code for estimationr error procedure corresponding to Figure S11.
+- [simulation_source_detection (Figure 2).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/simulation_source_detection (Figure 2).R): The simulation code for source detection procedure corresponding to Figure 2.
+- [Simulation_source_detection (Figures S1-S3).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection (Figures S1-S3).R): The simulation code for source detection procedure corresponding to  Figures S1-S3.
+- [Simulation_source_detection (Figures S4-S6).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection (Figures S4-S6).R): The simulation code for source detection procedure corresponding to  Figures S4-S6.
+
 
 ### Contact
 ishspsy@yonsei.ac.kr
