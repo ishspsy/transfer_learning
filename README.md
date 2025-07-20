@@ -41,6 +41,11 @@ CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test spl
 - [Simulation_source_detection(Figures_S1-S3).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection(Figures_S1-S3).R): Simulation code for the source detection procedure corresponding to Figures S1–S3.
 - [Simulation_source_detection(Figures_S4-S6).R](https://github.com/ishspsy/transfer_learning/blob/main/Code_example/Simulation_source_detection(Figures_S4-S6).R): Simulation code for the source detection procedure corresponding to Figures S4–S6.
 
+## Required R Environment
+- R version: 4.2.0
+- Required packages:
+<pre> ```r install.packages(c("corpcor", "foreach", "doParallel", "splitTools", "MASS")) ``` </pre>
+
 
 ### Contact
 ishspsy@yonsei.ac.kr
