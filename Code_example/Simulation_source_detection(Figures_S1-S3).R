@@ -1,6 +1,5 @@
 
-## For source detection simulation results (2, Figure S1, Figure S2, Figure S4, Figure S5)
-library(tictoc)
+ library(tictoc)
 
 
 #setwd("transfer_learning-main_final")
