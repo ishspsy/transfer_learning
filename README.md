@@ -44,7 +44,8 @@ CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test spl
 ## Required R Environment
 - R version: 4.2.0
 - Required packages:
-<pre> ```r install.packages(c("corpcor", "foreach", "doParallel", "splitTools", "MASS")) ``` </pre>
+```r
+install.packages(c("corpcor", "foreach", "doParallel", "splitTools", "MASS"))
 
 
 ### Contact
