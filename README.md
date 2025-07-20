@@ -46,7 +46,7 @@ CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test spl
 - Required packages:
 ```r
 install.packages(c("corpcor", "foreach", "doParallel", "splitTools", "MASS"))
-
+```
 
 ### Contact
 ishspsy@yonsei.ac.kr
