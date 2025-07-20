@@ -1,0 +1,104 @@
+A full data dictionary for the 100 gene expression variables in CCLEdataset$Xtarget 
+
+
+Gene Symbol	Description
+AKR1C2	Aldo-keto reductase involved in steroid metabolism.
+SPP1	Osteopontin, involved in immune responses and cell adhesion.
+S100P	Calcium-binding protein associated with tumor progression.
+XAGE1A	Cancer/testis antigen, potential biomarker in lung cancers.
+AKR1B10	Detoxifies aldehydes, overexpressed in liver and tumors.
+AKR1C1	Enzyme involved in progesterone metabolism.
+S100A9	Involved in inflammation and cancer-associated myeloid cells.
+KRT81	Hair keratin protein found in follicular tissue.
+ALDH3A1	Aldehyde dehydrogenase protecting from oxidative stress.
+UCHL1	Ubiquitin-processing enzyme highly expressed in neurons.
+CXCL5	Chemokine that attracts neutrophils, involved in inflammation.
+GPX2	Glutathione peroxidase protecting against oxidative damage.
+VIM	Vimentin, key marker of epithelial-mesenchymal transition (EMT).
+MT1E	Metal-binding protein protecting against toxicity.
+S100A14	Regulates cell proliferation and differentiation.
+AKR1C3	Involved in steroid and prostaglandin metabolism.
+AGR2	Disulfide isomerase implicated in cancer metastasis.
+SRGN	Serglycin, regulates secretory granule formation in immune cells.
+LCN2	Lipocalin-2 involved in iron transport and inflammation.
+XAGE1B	Tumor-associated antigen with restricted normal tissue expression.
+RAB25	Small GTPase involved in epithelial cell polarity.
+CYP24A1	Enzyme that deactivates vitamin D metabolites.
+NNMT	Nicotinamide N-methyltransferase, modulates cell metabolism.
+TFPI2	Protease inhibitor involved in ECM regulation.
+RPS4Y1	Ribosomal protein gene located on the Y chromosome.
+KRT19	Keratin 19, epithelial marker often used in cancer diagnostics.
+SLPI	Serine protease inhibitor active in inflammation and wound healing.
+BST2	Tetherin, involved in viral restriction.
+KRT7	Keratin 7, marker of simple epithelia.
+CDKN2A	Tumor suppressor gene encoding p16 and p14ARF.
+FABP5	Fatty acid-binding protein associated with lipid metabolism.
+KYNU	Kynureninase, involved in tryptophan catabolism.
+CES1	Carboxylesterase involved in drug metabolism.
+SERPINE1	Inhibits fibrinolysis, upregulated in various cancers.
+ALDH1A1	Retinal dehydrogenase involved in stem cell regulation.
+CPS1	Carbamoyl phosphate synthetase involved in the urea cycle.
+IFI27	Interferon-stimulated gene involved in apoptosis.
+FXYD3	Modulates Na,K-ATPase activity in epithelial cells.
+MAGEA3	Tumor antigen expressed in various cancers.
+SPARC	Secreted protein that regulates ECM and cell interactions.
+MAL2	Involved in protein trafficking in polarized epithelial cells.
+CST6	Cystatin E/M, cysteine protease inhibitor involved in metastasis.
+SLC43A3	Nucleobase transporter gene.
+TACSTD2	Epithelial cell marker overexpressed in carcinomas.
+CEACAM6	Cell adhesion molecule involved in cancer progression.
+CPLX2	Complexin protein modulating neurotransmitter release.
+FGB	Fibrinogen beta chain involved in blood clotting.
+ADGRF1	Adhesion GPCR associated with cell signaling.
+ABCC2	Multidrug resistance-associated protein (MRP2).
+PLAT	Tissue plasminogen activator (tPA), breaks down blood clots.
+GRAMD1B	Membrane-associated protein, function under investigation.
+ST14	Protease involved in epithelial integrity and cancer.
+ARHGDIB	Rho GDP-dissociation inhibitor, regulates cytoskeleton.
+WFDC2	HE4, biomarker for ovarian cancer.
+CLDN7	Claudin-7, tight junction protein in epithelial cells.
+CD74	Invariant chain for MHC class II, also a receptor.
+IFITM1	Interferon-induced protein with antiviral activity.
+SMIM22	Small membrane protein, limited known function.
+FN1	Fibronectin, involved in cell adhesion and migration.
+SAA1	Serum amyloid A1, acute-phase protein.
+IL1B	Interleukin-1 beta, pro-inflammatory cytokine.
+G0S2	Regulates lipid metabolism and cell cycle.
+SERPINB2	Plasminogen activator inhibitor type 2.
+MAGEA4	Tumor antigen from MAGE family.
+CDH3	P-cadherin, mediates cell-cell adhesion.
+ANKRD1	Transcription regulator responsive to mechanical stress.
+ELF3	Ets family transcription factor involved in epithelial development.
+CXCL1	Chemokine involved in neutrophil recruitment.
+C3	Complement component 3, immune defense protein.
+ADIRF	Adipogenesis regulatory factor.
+MMP1	Matrix metalloproteinase that degrades collagen.
+DEFB1	Defensin involved in antimicrobial response.
+CRABP2	Retinoic acid-binding protein regulating gene expression.
+KRT17	Keratin 17, involved in skin and tumor development.
+DHRS2	Dehydrogenase/reductase enzyme, mitochondrial.
+CLDN4	Tight junction protein expressed in many epithelia.
+PRSS8	Serine protease expressed in epithelial cells.
+EFEMP1	Fibulin-3, ECM protein involved in tumor suppression.
+PRSS3	Trypsinogen isoform expressed outside pancreas.
+GPX3	Glutathione peroxidase in plasma, antioxidant role.
+RAC2	Small GTPase in immune cell function.
+AXL	Receptor tyrosine kinase involved in EMT and resistance.
+TNFRSF6B	Decoy receptor for FasL, modulating apoptosis.
+C15orf48	Gene with unclear function, possibly immune-related.
+ESRP1	Regulates alternative splicing in epithelial cells.
+CYP4F11	Cytochrome P450 enzyme, fatty acid metabolism.
+CDH1	E-cadherin, major epithelial adhesion molecule.
+CLU	Clusterin, involved in apoptosis and lipid transport.
+UGT1A6	UDP-glucuronosyltransferase involved in detoxification.
+CCL2	Monocyte chemoattractant protein-1 (MCP-1).
+F3	Tissue factor, initiates blood coagulation.
+EPCAM	Epithelial cell adhesion molecule, stem cell marker.
+SNCA	Alpha-synuclein, involved in Parkinson's disease.
+PI3	Elafin, serine protease inhibitor with anti-inflammatory roles.
+PRSS21	Trypsin-like serine protease, testis-specific.
+FGA	Fibrinogen alpha chain, essential for clot formation.
+CCN2	Connective tissue growth factor, fibrosis marker.
+LAD1	Anchoring filament protein in skin.
+BASP1	Transcriptional co-regulator involved in neurogenesis.
+SPINT1	Protease inhibitor involved in epithelial integrity.
