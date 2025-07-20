@@ -2,7 +2,7 @@
 
 ## Directory
 - [Function](https://github.com/ishspsy/transfer_learning/tree/main/Function): Contains functions that implement transfer learning algorithms and generate synthetic datasets.
-- [Data](https://github.com/ishspsy/transfer_learning/tree/main/Data): Includes the CCLE dataset along with accompanying data dictionary files.
+- [Data](https://github.com/ishspsy/transfer_learning/tree/main/Data): Includes the CCLE dataset along with accompanying data dictionary files in [Data_dictionary](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary) directory.
 - [Code_example](https://github.com/ishspsy/transfer_learning/tree/main/Code_example): Includes R scripts that demonstrate the use of functions in the [Function](https://github.com/ishspsy/transfer_learning/tree/main/Function) directory.
 - [Results](https://github.com/ishspsy/transfer_learning/tree/main/Results): Includes RData files containing the results.
 
