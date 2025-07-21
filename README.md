@@ -43,7 +43,7 @@ All gene and drug identifiers are consistent across target and auxiliary domains
 
 ## Required R Environment
 - R version: 4.2.0
-- Required packages:
+- Required packages: Run the following R code to install and load the required packages:
 ```r
 # Install required packages
 install.packages(c("corpcor", "foreach", "doParallel", "splitTools", "MASS"))
