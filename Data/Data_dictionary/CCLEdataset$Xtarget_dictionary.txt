@@ -1,104 +1,105 @@
-A full data dictionary for the 100 gene expression variables in CCLEdataset$Xtarget 
+# A full data dictionary for the 100 gene expression variables in CCLEdataset$Xtarget 
+# This dictionary describes the 100 gene expression variables in `Xtarget`, a 28 × 100 matrix for KRAS-mutant NSCLC cell lines. All variables are of numeric type. Each column corresponds to a gene symbol with its NCBI gene ID and a brief description.
 
+Gene	Variable Type	Min	Max	Mean	Description
+AKR1C2 (1646)	Numeric	0.263034405833794	11.753216749179	4.86569378304562	Aldo-keto reductase involved in steroid metabolism.
+SPP1 (6696)	Numeric	0.367371065648529	12.4914272380715	4.36855402867035	Osteopontin, involved in immune responses and cell adhesion.
+S100P (6286)	Numeric	0.7311832415722	12.3369528001605	5.50844482760646	Calcium-binding protein associated with tumor progression.
+XAGE1A (653220)	Numeric	0.0	10.8670470248968	5.37891307222174	Cancer/testis antigen, potential biomarker in lung cancers.
+AKR1B10 (57016)	Numeric	0.16349873228288	11.7844712654178	4.23850093376545	Detoxifies aldehydes, overexpressed in liver and tumors.
+AKR1C1 (1645)	Numeric	0.333423733725192	11.3287310185797	5.32189360122716	Enzyme involved in progesterone metabolism.
+S100A9 (6280)	Numeric	0.0	11.6964459759337	3.38959683892389	Involved in inflammation and cancer-associated myeloid cells.
+KRT81 (3887)	Numeric	0.321928094887362	11.5988434386562	4.22516463649917	Hair keratin protein found in follicular tissue.
+ALDH3A1 (218)	Numeric	0.176322772640463	11.2450772753597	4.06643458517283	Aldehyde dehydrogenase protecting from oxidative stress.
+UCHL1 (7345)	Numeric	0.389566811762726	10.9240701855853	5.86897250943362	Ubiquitin-processing enzyme highly expressed in neurons.
+CXCL5 (6374)	Numeric	0.01435529297707	12.5924103171126	2.34572091380722	Chemokine that attracts neutrophils, involved in inflammation.
+GPX2 (2877)	Numeric	0.321928094887362	10.4152135987653	2.9899256552433	Glutathione peroxidase protecting against oxidative damage.
+VIM (7431)	Numeric	1.28688114778816	11.9749164341859	7.86665438064732	Vimentin, key marker of epithelial-mesenchymal transition (EMT).
+MT1E (4493)	Numeric	0.111031312388744	8.92157319562621	5.01787386436138	Metal-binding protein protecting against toxicity.
+S100A14 (57402)	Numeric	0.286881147788161	10.0590740146636	3.79908641368217	Regulates cell proliferation and differentiation.
+AKR1C3 (8644)	Numeric	0.485426827170242	11.3638609767295	5.58963952401561	Involved in steroid and prostaglandin metabolism.
+AGR2 (10551)	Numeric	0.411426245726465	11.9150203761067	4.79342110904331	Disulfide isomerase implicated in cancer metastasis.
+SRGN (5552)	Numeric	0.111031312388744	9.54511893000944	4.07349580128713	Serglycin, regulates secretory granule formation in immune cells.
+LCN2 (3934)	Numeric	0.16349873228288	12.4306877545094	3.84806604049619	Lipocalin-2 involved in iron transport and inflammation.
+XAGE1B (653067)	Numeric	0.0	8.59092382656697	4.00971967611747	Tumor-associated antigen with restricted normal tissue expression.
+RAB25 (57111)	Numeric	0.0840642647884745	7.86820522697744	3.38831308668685	Small GTPase involved in epithelial cell polarity.
+CYP24A1 (1591)	Numeric	0.0	10.2719298439709	4.07646451375481	Enzyme that deactivates vitamin D metabolites.
+NNMT (4837)	Numeric	0.20163386116965	10.2686589550277	4.19728056653406	Nicotinamide N-methyltransferase, modulates cell metabolism.
+TFPI2 (7980)	Numeric	0.411426245726465	11.7801296196253	5.37334311736315	Protease inhibitor involved in ECM regulation.
+RPS4Y1 (6192)	Numeric	0.214124805352847	10.4069490187912	2.075789584165	Ribosomal protein gene located on the Y chromosome.
+KRT19 (3880)	Numeric	1.35614381022528	11.049576317156	7.436882244127	Keratin 19, epithelial marker often used in cancer diagnostics.
+SLPI (6590)	Numeric	0.263034405833794	10.2524289056785	4.31855597694721	Serine protease inhibitor active in inflammation and wound healing.
+BST2 (684)	Numeric	0.286881147788161	10.1306992542145	4.69302191416425	Tetherin, involved in viral restriction.
+KRT7 (3855)	Numeric	1.68706068833989	11.753927055627	8.22887190682294	Keratin 7, marker of simple epithelia.
+CDKN2A (1029)	Numeric	0.0565835283663675	9.20442442203871	5.04678464101498	Tumor suppressor gene encoding p16 and p14ARF.
+FABP5 (2171)	Numeric	0.432959407276106	10.1312139050863	6.5854759291409	Fatty acid-binding protein associated with lipid metabolism.
+KYNU (8942)	Numeric	0.0840642647884745	8.93610787203051	4.25080855489114	Kynureninase, involved in tryptophan catabolism.
+CES1 (1066)	Numeric	0.137503523749935	11.5082404591989	2.63919293426287	Carboxylesterase involved in drug metabolism.
+SERPINE1 (5054)	Numeric	0.124328135002202	9.86642893672117	4.26515386671485	Inhibits fibrinolysis, upregulated in various cancers.
+ALDH1A1 (216)	Numeric	0.070389327891398	12.4551473859969	2.3855779255659	Retinal dehydrogenase involved in stem cell regulation.
+CPS1 (1373)	Numeric	0.111031312388744	8.98606956323305	2.93299998054034	Carbamoyl phosphate synthetase involved in the urea cycle.
+IFI27 (3429)	Numeric	0.632268215499513	11.9295173306648	3.94659328310007	Interferon-stimulated gene involved in apoptosis.
+FXYD3 (5349)	Numeric	0.20163386116965	9.86370619845422	3.29574994708889	Modulates Na,K-ATPase activity in epithelial cells.
+MAGEA3 (4102)	Numeric	0.0426443374084937	8.21033041353789	2.80880097775684	Tumor antigen expressed in various cancers.
+SPARC (6678)	Numeric	0.344828496997441	9.40448167296238	3.90292600459192	Secreted protein that regulates ECM and cell interactions.
+MAL2 (114569)	Numeric	0.22650852980868	8.51656677149687	4.55487707844597	Involved in protein trafficking in polarized epithelial cells.
+CST6 (1474)	Numeric	0.0	8.45885770533526	2.69624911176562	Cystatin E/M, cysteine protease inhibitor involved in metastasis.
+SLC43A3 (29015)	Numeric	0.150559676575381	8.17517526212952	4.09791097722524	Nucleobase transporter gene.
+TACSTD2 (4070)	Numeric	0.20163386116965	9.17549965111208	4.49824512967762	Epithelial cell marker overexpressed in carcinomas.
+CEACAM6 (4680)	Numeric	0.0840642647884745	11.2776942269418	2.36293834719116	Cell adhesion molecule involved in cancer progression.
+CPLX2 (10814)	Numeric	0.0	8.35517487863531	2.02946772102648	Complexin protein modulating neurotransmitter release.
+FGB (2244)	Numeric	0.0	11.7572233105345	1.50699992853637	Fibrinogen beta chain involved in blood clotting.
+ADGRF1 (266977)	Numeric	0.0285691521967709	8.6748984331333	2.72819153988411	Adhesion GPCR associated with cell signaling.
+ABCC2 (1244)	Numeric	0.214124805352847	8.7563895273287	3.11286814826716	Multidrug resistance-associated protein (MRP2).
+PLAT (5327)	Numeric	0.238786859587116	10.4269984972461	3.40996220134638	Tissue plasminogen activator (tPA), breaks down blood clots.
+GRAMD1B (57476)	Numeric	0.0976107966264223	8.53702421586357	3.65473436744184	Membrane-associated protein, function under investigation.
+ST14 (6768)	Numeric	0.0565835283663675	8.20163386116965	3.34004698568039	Protease involved in epithelial integrity and cancer.
+ARHGDIB (397)	Numeric	0.37851162325373	9.43746079951105	4.40900284432258	Rho GDP-dissociation inhibitor, regulates cytoskeleton.
+WFDC2 (10406)	Numeric	0.0	9.34903790212088	3.14810373403006	HE4, biomarker for ovarian cancer.
+CLDN7 (1366)	Numeric	0.298658315564515	8.63912360967898	4.53565477582933	Claudin-7, tight junction protein in epithelial cells.
+CD74 (972)	Numeric	0.31034012061215	9.66531814989547	3.21975126534762	Invariant chain for MHC class II, also a receptor.
+IFITM1 (8519)	Numeric	1.14404636961671	11.4156889600381	4.82533341464477	Interferon-induced protein with antiviral activity.
+SMIM22 (440335)	Numeric	0.0	8.07087229225708	3.37841565944277	Small membrane protein, limited known function.
+FN1 (2335)	Numeric	1.53106949272595	12.078184172174	6.0706236943197	Fibronectin, involved in cell adhesion and migration.
+SAA1 (6288)	Numeric	0.137503523749935	10.9897492754621	2.457031438342	Serum amyloid A1, acute-phase protein.
+IL1B (3553)	Numeric	0.070389327891398	10.4998458870832	2.09629573703994	Interleukin-1 beta, pro-inflammatory cytokine.
+G0S2 (50486)	Numeric	0.070389327891398	8.12990118236507	3.3360459595884	Regulates lipid metabolism and cell cycle.
+SERPINB2 (5055)	Numeric	0.01435529297707	9.79673725661987	2.11511076900834	Plasminogen activator inhibitor type 2.
+MAGEA4 (4103)	Numeric	0.0565835283663675	8.90318894479799	1.54082084036412	Tumor antigen from MAGE family.
+CDH3 (1001)	Numeric	0.0565835283663675	8.23026066466979	3.16144196512656	P-cadherin, mediates cell-cell adhesion.
+ANKRD1 (27063)	Numeric	0.0285691521967709	8.24179252503962	3.22566623015985	Transcription regulator responsive to mechanical stress.
+ELF3 (1999)	Numeric	0.333423733725192	9.08815219989215	4.66176020517553	Ets family transcription factor involved in epithelial development.
+CXCL1 (2919)	Numeric	0.400537929583729	10.5720369837549	4.12465604113787	Chemokine involved in neutrophil recruitment.
+C3 (718)	Numeric	0.263034405833794	9.77289186636862	3.50202612696697	Complement component 3, immune defense protein.
+ADIRF (10974)	Numeric	0.189033824390017	8.39450556752576	2.8089044342306	Adipogenesis regulatory factor.
+MMP1 (4312)	Numeric	0.0976107966264223	10.7117529993263	2.14728698268477	Matrix metalloproteinase that degrades collagen.
+DEFB1 (1672)	Numeric	0.0	8.77214959078454	1.94097670029039	Defensin involved in antimicrobial response.
+CRABP2 (1382)	Numeric	1.51601514700366	10.4192228460108	5.12699094426934	Retinoic acid-binding protein regulating gene expression.
+KRT17 (3872)	Numeric	0.22650852980868	10.5903999177997	2.46101349293288	Keratin 17, involved in skin and tumor development.
+DHRS2 (10202)	Numeric	0.286881147788161	11.143638309922	2.89022507349505	Dehydrogenase/reductase enzyme, mitochondrial.
+CLDN4 (1364)	Numeric	1.0703893278914	9.39902151756372	5.66466077641761	Tight junction protein expressed in many epithelia.
+PRSS8 (5652)	Numeric	0.0285691521967709	7.59268127295605	2.66989511777234	Serine protease expressed in epithelial cells.
+EFEMP1 (2202)	Numeric	0.111031312388744	8.4258872560339	4.76993934053123	Fibulin-3, ECM protein involved in tumor suppression.
+PRSS3 (5646)	Numeric	0.0285691521967709	7.7806381856072	2.68946770917537	Trypsinogen isoform expressed outside pancreas.
+GPX3 (2878)	Numeric	0.22650852980868	9.27863530068382	4.91500959423838	Glutathione peroxidase in plasma, antioxidant role.
+RAC2 (5880)	Numeric	0.16349873228288	7.58315800387441	4.03594019426251	Small GTPase in immune cell function.
+AXL (558)	Numeric	0.150559676575381	8.8635358565771	4.65245943426873	Receptor tyrosine kinase involved in EMT and resistance.
+TNFRSF6B (8771)	Numeric	0.137503523749935	8.38581927010017	3.03810876599418	Decoy receptor for FasL, modulating apoptosis.
+C15orf48 (84419)	Numeric	0.238786859587116	9.77714022381744	4.33638282337032	Gene with unclear function, possibly immune-related.
+ESRP1 (54845)	Numeric	0.0976107966264223	6.67030217007853	2.97723774578414	Regulates alternative splicing in epithelial cells.
+CYP4F11 (57834)	Numeric	0.0	7.47800105583793	2.74502731495202	Cytochrome P450 enzyme, fatty acid metabolism.
+CDH1 (999)	Numeric	0.22650852980868	8.1785154701886	3.65328470870802	E-cadherin, major epithelial adhesion molecule.
+CLU (1191)	Numeric	1.32192809488736	13.3302166426784	6.58319804220271	Clusterin, involved in apoptosis and lipid transport.
+UGT1A6 (54578)	Numeric	0.0	8.06651978142975	1.96383748263456	UDP-glucuronosyltransferase involved in detoxification.
+CCL2 (6347)	Numeric	0.0	8.92106732616926	1.81108502779497	Monocyte chemoattractant protein-1 (MCP-1).
+F3 (2152)	Numeric	1.26303440583379	10.2900188469326	5.2306566647374	Tissue factor, initiates blood coagulation.
+EPCAM (4072)	Numeric	1.11103131238874	9.53356334821451	5.77087084696198	Epithelial cell adhesion molecule, stem cell marker.
+SNCA (6622)	Numeric	0.01435529297707	7.94702320548587	2.96686258742285	Alpha-synuclein, involved in Parkinson's disease.
+PI3 (5266)	Numeric	0.0	9.8295324770414	2.16447969610706	Elafin, serine protease inhibitor with anti-inflammatory roles.
+PRSS21 (10942)	Numeric	0.0	7.92344634314219	1.99161345240481	Trypsin-like serine protease, testis-specific.
+FGA (2243)	Numeric	0.0	9.2076488687822	1.29116660099809	Fibrinogen alpha chain, essential for clot formation.
+CCN2 (1490)	Numeric	0.189033824390017	10.2958837027306	4.04712940750767	Connective tissue growth factor, fibrosis marker.
+LAD1 (3898)	Numeric	0.111031312388744	6.161686174584	2.68023288161066	Anchoring filament protein in skin.
+BASP1 (10409)	Numeric	0.263034405833794	9.13486265664481	5.8664817186859	Transcriptional co-regulator involved in neurogenesis.
+SPINT1 (6692)	Numeric	0.333423733725192	7.76414176729622	4.37393653606369	Protease inhibitor involved in epithelial integrity.
 
-Gene Symbol	Description
-AKR1C2	Aldo-keto reductase involved in steroid metabolism.
-SPP1	Osteopontin, involved in immune responses and cell adhesion.
-S100P	Calcium-binding protein associated with tumor progression.
-XAGE1A	Cancer/testis antigen, potential biomarker in lung cancers.
-AKR1B10	Detoxifies aldehydes, overexpressed in liver and tumors.
-AKR1C1	Enzyme involved in progesterone metabolism.
-S100A9	Involved in inflammation and cancer-associated myeloid cells.
-KRT81	Hair keratin protein found in follicular tissue.
-ALDH3A1	Aldehyde dehydrogenase protecting from oxidative stress.
-UCHL1	Ubiquitin-processing enzyme highly expressed in neurons.
-CXCL5	Chemokine that attracts neutrophils, involved in inflammation.
-GPX2	Glutathione peroxidase protecting against oxidative damage.
-VIM	Vimentin, key marker of epithelial-mesenchymal transition (EMT).
-MT1E	Metal-binding protein protecting against toxicity.
-S100A14	Regulates cell proliferation and differentiation.
-AKR1C3	Involved in steroid and prostaglandin metabolism.
-AGR2	Disulfide isomerase implicated in cancer metastasis.
-SRGN	Serglycin, regulates secretory granule formation in immune cells.
-LCN2	Lipocalin-2 involved in iron transport and inflammation.
-XAGE1B	Tumor-associated antigen with restricted normal tissue expression.
-RAB25	Small GTPase involved in epithelial cell polarity.
-CYP24A1	Enzyme that deactivates vitamin D metabolites.
-NNMT	Nicotinamide N-methyltransferase, modulates cell metabolism.
-TFPI2	Protease inhibitor involved in ECM regulation.
-RPS4Y1	Ribosomal protein gene located on the Y chromosome.
-KRT19	Keratin 19, epithelial marker often used in cancer diagnostics.
-SLPI	Serine protease inhibitor active in inflammation and wound healing.
-BST2	Tetherin, involved in viral restriction.
-KRT7	Keratin 7, marker of simple epithelia.
-CDKN2A	Tumor suppressor gene encoding p16 and p14ARF.
-FABP5	Fatty acid-binding protein associated with lipid metabolism.
-KYNU	Kynureninase, involved in tryptophan catabolism.
-CES1	Carboxylesterase involved in drug metabolism.
-SERPINE1	Inhibits fibrinolysis, upregulated in various cancers.
-ALDH1A1	Retinal dehydrogenase involved in stem cell regulation.
-CPS1	Carbamoyl phosphate synthetase involved in the urea cycle.
-IFI27	Interferon-stimulated gene involved in apoptosis.
-FXYD3	Modulates Na,K-ATPase activity in epithelial cells.
-MAGEA3	Tumor antigen expressed in various cancers.
-SPARC	Secreted protein that regulates ECM and cell interactions.
-MAL2	Involved in protein trafficking in polarized epithelial cells.
-CST6	Cystatin E/M, cysteine protease inhibitor involved in metastasis.
-SLC43A3	Nucleobase transporter gene.
-TACSTD2	Epithelial cell marker overexpressed in carcinomas.
-CEACAM6	Cell adhesion molecule involved in cancer progression.
-CPLX2	Complexin protein modulating neurotransmitter release.
-FGB	Fibrinogen beta chain involved in blood clotting.
-ADGRF1	Adhesion GPCR associated with cell signaling.
-ABCC2	Multidrug resistance-associated protein (MRP2).
-PLAT	Tissue plasminogen activator (tPA), breaks down blood clots.
-GRAMD1B	Membrane-associated protein, function under investigation.
-ST14	Protease involved in epithelial integrity and cancer.
-ARHGDIB	Rho GDP-dissociation inhibitor, regulates cytoskeleton.
-WFDC2	HE4, biomarker for ovarian cancer.
-CLDN7	Claudin-7, tight junction protein in epithelial cells.
-CD74	Invariant chain for MHC class II, also a receptor.
-IFITM1	Interferon-induced protein with antiviral activity.
-SMIM22	Small membrane protein, limited known function.
-FN1	Fibronectin, involved in cell adhesion and migration.
-SAA1	Serum amyloid A1, acute-phase protein.
-IL1B	Interleukin-1 beta, pro-inflammatory cytokine.
-G0S2	Regulates lipid metabolism and cell cycle.
-SERPINB2	Plasminogen activator inhibitor type 2.
-MAGEA4	Tumor antigen from MAGE family.
-CDH3	P-cadherin, mediates cell-cell adhesion.
-ANKRD1	Transcription regulator responsive to mechanical stress.
-ELF3	Ets family transcription factor involved in epithelial development.
-CXCL1	Chemokine involved in neutrophil recruitment.
-C3	Complement component 3, immune defense protein.
-ADIRF	Adipogenesis regulatory factor.
-MMP1	Matrix metalloproteinase that degrades collagen.
-DEFB1	Defensin involved in antimicrobial response.
-CRABP2	Retinoic acid-binding protein regulating gene expression.
-KRT17	Keratin 17, involved in skin and tumor development.
-DHRS2	Dehydrogenase/reductase enzyme, mitochondrial.
-CLDN4	Tight junction protein expressed in many epithelia.
-PRSS8	Serine protease expressed in epithelial cells.
-EFEMP1	Fibulin-3, ECM protein involved in tumor suppression.
-PRSS3	Trypsinogen isoform expressed outside pancreas.
-GPX3	Glutathione peroxidase in plasma, antioxidant role.
-RAC2	Small GTPase in immune cell function.
-AXL	Receptor tyrosine kinase involved in EMT and resistance.
-TNFRSF6B	Decoy receptor for FasL, modulating apoptosis.
-C15orf48	Gene with unclear function, possibly immune-related.
-ESRP1	Regulates alternative splicing in epithelial cells.
-CYP4F11	Cytochrome P450 enzyme, fatty acid metabolism.
-CDH1	E-cadherin, major epithelial adhesion molecule.
-CLU	Clusterin, involved in apoptosis and lipid transport.
-UGT1A6	UDP-glucuronosyltransferase involved in detoxification.
-CCL2	Monocyte chemoattractant protein-1 (MCP-1).
-F3	Tissue factor, initiates blood coagulation.
-EPCAM	Epithelial cell adhesion molecule, stem cell marker.
-SNCA	Alpha-synuclein, involved in Parkinson's disease.
-PI3	Elafin, serine protease inhibitor with anti-inflammatory roles.
-PRSS21	Trypsin-like serine protease, testis-specific.
-FGA	Fibrinogen alpha chain, essential for clot formation.
-CCN2	Connective tissue growth factor, fibrosis marker.
-LAD1	Anchoring filament protein in skin.
-BASP1	Transcriptional co-regulator involved in neurogenesis.
-SPINT1	Protease inhibitor involved in epithelial integrity.
