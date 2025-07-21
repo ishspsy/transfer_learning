@@ -12,7 +12,7 @@ The Cancer Cell Line Encyclopedia (CCLE) dataset consists of the expression leve
 
 The main dataset [CCLEdataset.RDATA](https://github.com/ishspsy/transfer_learning/tree/main/Data/CCLEdataset.RDATA) contains four key objects:
 - Xtarget: A 28 × 100 matrix of gene expression data for KRAS-mutant NSCLC cell lines.
-- Ytarget: A 28 × 8 matrix of drug response AUC values for 8 anti-cancer compounds.
+- Ytarget: A 28 × 8 matrix of drug response values for 8 anti-cancer compounds.
 - auXlist: A list of source-domain gene expression datasets (NSCLC Wild-type , Others Mutant, Others Wild-Type), each a matrix of shape n_k × 100, where n_1=47, n_2=68, n_3=326.
 - auYlist: A list of corresponding drug response matrices for each source domain (NSCLC Wild-type , Others Mutant, Others Wild-Type), with shape n_k × 8,  where n_1=47, n_2=68, n_3=326.
 
