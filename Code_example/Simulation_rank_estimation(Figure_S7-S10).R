@@ -14,7 +14,7 @@ source(paste0(path,"/Function/Functions_rankestimation_simul.R")) # load r funct
 # n=n0, r=rank of B
 # corx: [Sigma_x]^{|i-j|}=corx^{|i-j|}
 # cory: [Sigma_epsilon]^{|i-j|}=Sigma_epsilon^{|i-j|}
-targestset <- generator_target_normal(rep=100,n=120,p=80,q=20,r=5, corx=0.5,cory=0)
+targestset <- generator_target_normal(rep=100,n=120,p=80,q=20,r=8, corx=0.5,cory=0)
 
 
 ### Simulating 100 source datasets
