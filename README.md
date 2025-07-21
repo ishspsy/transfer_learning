@@ -17,8 +17,8 @@ The main dataset CCLEdataset.RDATA contains four key objects:
 - auYlist: A list of corresponding drug response matrices for each source domain (NSCLC Wild-type , Others Mutant, Others Wild-Type), with shape n_k × 8,  where n_1=47, n_2=68, n_3=326.
 
 All gene and drug identifiers are consistent across target and auxiliary domains.
-- For list of genes and their descriptions, see CCLEdataset$Xtarget_dictionary.txt
-- For list of drugs and their descriptions, see CCLEdataset$Ytarget_dictionary.txt
+- For list of genes and their descriptions, see [CCLEdataset$Xtarget_dictionary.txt](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary/CCLEdataset$Xtarget_dictionary.txt)
+- For list of drugs and their descriptions, see [CCLEdataset$Ytarget_dictionary.txt](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary/CCLEdataset$Ytarget_dictionary.txt)
 
 CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test splits based on the original CCLEdataset. In each split, the 28 KRAS-mutant NSCLC cell lines are randomly partitioned into 20 training samples and 8 test samples. This resampling procedure was repeated 100 times to allow for stable evaluation of prediction error. The resulting object stores the corresponding training and test indices for each repetition.
 
