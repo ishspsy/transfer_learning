@@ -16,15 +16,15 @@ source(paste0(path,"/Function/Functions_nr-basedmethods_simul.R")) # load r func
 tic()
 h = 2; K=4
 
-tgarget_n050p30r5q20 <- generator_target_simulsourcedetection(rep=100, n=120, p=80, q=20, r= 5, corx=0.5,cory=0)
-Sourceset_h5 <- generator_source_simulsourcedetection_het(rep=100, nvec=rep(300,4),hvec = c(h,20,20,50), 
-                                                           p=30,q=20,ranksourcevec=rep(5,4),
+tgarget_n120p80r5q20 <- generator_target_simulsourcedetection(rep=200, n=120, p=80, q=20, r= 5, corx=0.5,cory=0)
+Sourceset_h5 <- generator_source_simulsourcedetection_het(rep=200, nvec=rep(300,4),hvec = c(h,20,20,50), 
+                                                           p=80,q=20,ranksourcevec=rep(5,4),
                                                            B=tgarget_n050p30r5q20$B,cory=0,numsource=K)
-testrep1to3_het <- rep_forsimul(Ylist=tgarget_n050p30r5q20$Ylist,
-                            Xlist=tgarget_n050p30r5q20$Xlist,
+testrep1to3_het <- rep_forsimul(Ylist=tgarget_n120p80r5q20$Ylist,
+                            Xlist=tgarget_n120p80r5q20$Xlist,
                             auxYlist_list=Sourceset_h5$auxYlist_list,
                             auxXlist_list=Sourceset_h5$auxXlist_list, repstart=1, repend=3, 
-                            Btrue=tgarget_n050p30r5q20$B)
+                            Btrue=tgarget_n120p80r5q20$B)
 
 
 # Summary of source detection results
@@ -40,15 +40,15 @@ toc()
 tic()
 h = 2; K=7
 
-tgarget_n050p30r5q20 <- generator_target_simulsourcedetection(rep=100, n=120, p=80, q=20, r= 5, corx=0.5,cory=0)
+tgarget_n120p80r5q20 <- generator_target_simulsourcedetection(rep=100, n=120, p=80, q=20, r= 5, corx=0.5,cory=0)
 Sourceset_h5 <- generator_source_simulsourcedetection_het(rep=100, nvec=rep(300,7),hvec = c(h,h,h,h,20,20,50), 
-                                                          p=30,q=20,ranksourcevec=rep(5,7),
+                                                          p=80,q=20,ranksourcevec=rep(5,7),
                                                           B=tgarget_n050p30r5q20$B,cory=0,numsource=K)
-testrep1to3_het <- rep_forsimul(Ylist=tgarget_n050p30r5q20$Ylist,
-                                Xlist=tgarget_n050p30r5q20$Xlist,
+testrep1to3_het <- rep_forsimul(Ylist=tgarget_n120p80r5q20$Ylist,
+                                Xlist=tgarget_n120p80r5q20$Xlist,
                                 auxYlist_list=Sourceset_h5$auxYlist_list,
                                 auxXlist_list=Sourceset_h5$auxXlist_list, repstart=1, repend=3, 
-                                Btrue=tgarget_n050p30r5q20$B)
+                                Btrue=tgarget_n120p80r5q20$B)
 
 
 
