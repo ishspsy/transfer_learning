@@ -1,4 +1,7 @@
 # A drug variable dictionary for CCLEdataset$Ytarget   
+# This dictionary describes the 8 drug response variables in `Ytarget`, a 28 × 8 matrix for KRAS-mutant NSCLC cell lines.
+# All variables are of numeric type for each anti-cancer compound.
+# Each column corresponds to one compound, along with a brief description of its pharmacological mechanism.
 
 No.	Drug.Name	Variable.Type	Min	Max	Mean	Description
 1	AZD0530	Numeric	0	1.8416	0.684470714285714	Src family kinase inhibitor; studied in solid tumors.
