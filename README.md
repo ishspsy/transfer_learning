@@ -10,7 +10,7 @@
 ## Data
 The Cancer Cell Line Encyclopedia (CCLE) dataset consists of the expression levels of 19,221 genes and drug response data for 24 compounds across a range of human cancer cell lines, where the drug response of each cell line is measured as the area under the dose-response curve. Cancer cell line datasets, such as CCLE, have been widely used to construct predictive models of drug response. We aim to predict drug response in non-small cell lung cancer (NSCLC) cell lines with mutations in the Kirsten rat sarcoma viral oncogene homolog (KRAS) gene. We focus on a subset of the CCLE data. Specifically, we consider 8 drugs for which drug response is available for all cell lines. These 8 drugs are AZD0530, Crizotinib, Dovitinib, Lapatinib, Nutlin-3, PD0325901, TAE684, and Topotecan. In addition, we select the top 100 genes with the highest variance across KRAS-mutant NSCLC cell lines. Finally, we have 28 KRAS-mutant NSCLC cell lines on 100 predictors and 8 responses.
 
-The main dataset CCLEdataset.RDATA contains four key objects:
+The main dataset [CCLEdataset.RDATA](https://github.com/ishspsy/transfer_learning/tree/main/Data/CCLEdataset.RDATA) contains four key objects:
 - Xtarget: A 28 × 100 matrix of gene expression data for KRAS-mutant NSCLC cell lines.
 - Ytarget: A 28 × 8 matrix of drug response AUC values for 8 anti-cancer compounds.
 - auXlist: A list of source-domain gene expression datasets (NSCLC Wild-type , Others Mutant, Others Wild-Type), each a matrix of shape n_k × 100, where n_1=47, n_2=68, n_3=326.
@@ -20,7 +20,7 @@ All gene and drug identifiers are consistent across target and auxiliary domains
 - For list of genes and their descriptions, see [CCLEdataset$Xtarget_dictionary.txt](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary/CCLEdataset$Xtarget_dictionary.txt)
 - For list of drugs and their descriptions, see [CCLEdataset$Ytarget_dictionary.txt](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary/CCLEdataset$Ytarget_dictionary.txt)
 
-CCLEdataset_trainingtest.RDATA contains 100 randomly generated training-test splits based on the original CCLEdataset. In each split, the 28 KRAS-mutant NSCLC cell lines are randomly partitioned into 20 training samples and 8 test samples. This resampling procedure was repeated 100 times to allow for stable evaluation of prediction error. The resulting object stores the corresponding training and test indices for each repetition.
+[CCLEdataset_trainingtest.RDATA](https://github.com/ishspsy/transfer_learning/tree/main/Data/CCLEdataset_trainingtest.RDATA) contains 100 randomly generated training-test splits based on the original CCLEdataset. In each split, the 28 KRAS-mutant NSCLC cell lines are randomly partitioned into 20 training samples and 8 test samples. This resampling procedure was repeated 100 times to allow for stable evaluation of prediction error. The resulting object stores the corresponding training and test indices for each repetition.
 
 
 ## Main function
