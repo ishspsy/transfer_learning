@@ -1,12 +1,11 @@
-A drug variable dictionary for CCLEdataset$Xtarget   
+# A drug variable dictionary for CCLEdataset$Ytarget   
 
-
-Drug Name	Description
-AZD0530	Src family kinase inhibitor; studied in solid tumors.
-Lapatinib	Dual EGFR and HER2 tyrosine kinase inhibitor, used in breast cancer.
-Nutlin-3	MDM2 antagonist; activates p53 pathway in cancer cells.
-PD-0325901	MEK1/2 inhibitor that blocks MAPK/ERK signaling.
-PF2341066	Also known as Crizotinib; ALK and MET inhibitor for NSCLC.
-TAE684	Selective ALK inhibitor with preclinical activity in cancers.
-TKI258	Also known as Dovitinib; FGFR inhibitor in development for solid tumors.
-Topotecan	Topoisomerase I inhibitor used in ovarian and lung cancers.
+No.	Drug.Name	Variable.Type	Min	Max	Mean	Description
+1	AZD0530	Numeric	0	1.8416	0.684470714285714	Src family kinase inhibitor; studied in solid tumors.
+2	Lapatinib	Numeric	0.1102	1.6056	0.590714285714286	Dual EGFR and HER2 tyrosine kinase inhibitor, used in breast cancer.
+3	Nutlin-3	Numeric	0	1.3545	0.415378928571429	MDM2 antagonist; activates p53 pathway in cancer cells.
+4	PD-0325901	Numeric	0.3876	4.4466	2.03737142857143	MEK1/2 inhibitor that blocks MAPK/ERK signaling.
+5	PF2341066	Numeric	0	1.2301	0.525022142857143	Also known as Crizotinib; ALK and MET inhibitor for NSCLC.
+6	TAE684	Numeric	0.07138	2.1373	1.02900285714286	Selective ALK inhibitor with preclinical activity in cancers.
+7	TKI258	Numeric	0.1195	1.7953	0.789978571428571	Also known as Dovitinib; FGFR inhibitor in development for solid tumors.
+8	Topotecan	Numeric	0.8203	4.8723	2.4618	Topoisomerase I inhibitor used in ovarian and lung cancers.
