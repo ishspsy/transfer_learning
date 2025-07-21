@@ -15,6 +15,7 @@ The main dataset [CCLEdataset.RDATA](https://github.com/ishspsy/transfer_learnin
 - Ytarget: A 28 × 8 matrix of drug response values for 8 anti-cancer compounds.
 - auXlist: A list of source-domain gene expression datasets (NSCLC Wild-type , Others Mutant, Others Wild-Type), each a matrix of shape n_k × 100, where n_1=47, n_2=68, n_3=326.
 - auYlist: A list of corresponding drug response matrices for each source domain (NSCLC Wild-type , Others Mutant, Others Wild-Type), with shape n_k × 8,  where n_1=47, n_2=68, n_3=326.
+- Note: The gene variables in auXlist and the drug variables in auYlist are identical to those in Xtarget and Ytarget, respectively, ensuring consistent feature alignment across domains.
 
 All gene and drug identifiers are consistent across target and auxiliary domains.
 - For list of genes and their descriptions, see [CCLEdataset$Xtarget_dictionary.txt](https://github.com/ishspsy/transfer_learning/tree/main/Data/Data_dictionary/CCLEdataset$Xtarget_dictionary.txt)
