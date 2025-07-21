@@ -37,15 +37,15 @@ toc()
 # Case 2
 tic()
 n0=100; p=500
-tgarget_n050p30r5q20 <- generator_target_simulsourcedetection(rep=100, n=n0, p=p, q=20, r= 5, corx=0.01,cory=0)
+tgarget_n0100p500r5q20 <- generator_target_simulsourcedetection(rep=100, n=n0, p=p, q=20, r= 5, corx=0.01,cory=0)
 Sourceset_h5 <- generator_source_simulsourcedetection_het(rep=100, nvec=rep(50,5),hvec = rep(9,5), 
                                                           p=30,q=20,ranksourcevec=sample(3:12, size = 5, replace = TRUE),
                                                           B=tgarget_n050p30r5q20$B,cory=0,numsource=5)
-testrep1to3_het <- rep_forsimul(Ylist=tgarget_n050p30r5q20$Ylist,
-                                Xlist=tgarget_n050p30r5q20$Xlist,
+testrep1to3_het <- rep_forsimul(Ylist=tgarget_n0100p500r5q20$Ylist,
+                                Xlist=tgarget_n0100p500r5q20$Xlist,
                                 auxYlist_list=Sourceset_h5$auxYlist_list,
                                 auxXlist_list=Sourceset_h5$auxXlist_list, repstart=1, repend=3, 
-                                Btrue=tgarget_n050p30r5q20$B)
+                                Btrue=tgarget_n0100p500r5q20$B)
 
 
 # Summary of source detection results
